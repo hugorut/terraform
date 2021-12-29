@@ -6,9 +6,9 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/providers"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/providers"
 )
 
 func buildProviderConfig(ctx EvalContext, addr addrs.AbsProviderConfig, config *configs.Provider) hcl.Body {

@@ -9,7 +9,7 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 )
 
 // SearchLocalDirectory performs an immediate, one-off scan of the given base

@@ -11,11 +11,11 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/getproviders"
-	"github.com/hashicorp/terraform/src/replacefile"
-	"github.com/hashicorp/terraform/src/tfdiags"
-	"github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/getproviders"
+	"github.com/hugorut/terraform/src/replacefile"
+	"github.com/hugorut/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/version"
 )
 
 // LoadLocksFromFile reads locks from the given file, expecting it to be a

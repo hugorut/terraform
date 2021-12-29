@@ -8,11 +8,11 @@ import (
 	tfe "github.com/hashicorp/go-tfe"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/clistate"
-	"github.com/hashicorp/terraform/src/command/views"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/clistate"
+	"github.com/hugorut/terraform/src/command/views"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // TaintCommand is a cli.Command implementation that manually taints

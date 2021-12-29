@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/provisioners"
 )
 
 // ResourceProvisioner is an interface that must be implemented by any

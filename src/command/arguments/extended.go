@@ -7,9 +7,9 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // DefaultParallelism is the limit Terraform places on total parallel

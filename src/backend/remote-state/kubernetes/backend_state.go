@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/remote"
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/remote"
+	"github.com/hugorut/terraform/src/states/statemgr"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

@@ -1,7 +1,7 @@
 package remote
 
 import (
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/states/statemgr"
 )
 
 // Client is the interface that must be implemented for a remote state

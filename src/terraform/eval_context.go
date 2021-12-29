@@ -2,16 +2,16 @@ package terraform
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/instances"
-	"github.com/hashicorp/terraform/src/lang"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/provisioners"
-	"github.com/hashicorp/terraform/src/refactoring"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/instances"
+	"github.com/hugorut/terraform/src/lang"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/refactoring"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

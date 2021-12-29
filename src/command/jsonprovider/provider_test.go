@@ -7,8 +7,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/terraform"
 )
 
 func TestMarshalProvider(t *testing.T) {

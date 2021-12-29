@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/legacy/terraform"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/legacy/terraform"
 )
 
 // Provisioner represents a resource provisioner in Terraform and properly

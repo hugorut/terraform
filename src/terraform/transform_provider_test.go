@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/dag"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/dag"
 )
 
 func testProviderTransformerGraph(t *testing.T, cfg *configs.Config) *Graph {

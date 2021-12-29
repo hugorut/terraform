@@ -8,15 +8,15 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/command/jsonconfig"
-	"github.com/hashicorp/terraform/src/command/jsonstate"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statefile"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/command/jsonconfig"
+	"github.com/hugorut/terraform/src/command/jsonstate"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statefile"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/version"
 )
 
 // FormatVersion represents the version of the json format and will be

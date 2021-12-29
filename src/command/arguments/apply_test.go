@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/plans"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/plans"
 )
 
 func TestParseApply_basicValid(t *testing.T) {

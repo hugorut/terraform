@@ -1,7 +1,7 @@
 package instances
 
 import (
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 )
 
 // Set is a set of instances, intended mainly for the return value of

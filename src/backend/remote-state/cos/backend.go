@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/legacy/helper/schema"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/legacy/helper/schema"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile"
 	tag "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tag/v20180813"

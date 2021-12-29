@@ -8,8 +8,8 @@ import (
 	"github.com/go-test/deep"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/lang/marks"
 )
 
 func TestState(t *testing.T) {

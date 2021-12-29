@@ -3,8 +3,8 @@ package cloud
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/src/configs"
-	legacy "github.com/hashicorp/terraform/src/legacy/terraform"
+	"github.com/hugorut/terraform/src/configs"
+	legacy "github.com/hugorut/terraform/src/legacy/terraform"
 )
 
 func TestDetectConfigChangeType(t *testing.T) {

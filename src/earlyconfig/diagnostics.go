@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func wrapDiagnostics(diags tfconfig.Diagnostics) tfdiags.Diagnostics {

@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/states/remote"
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/states/remote"
+	"github.com/hugorut/terraform/src/states/statemgr"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"

@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/configs/hcl2shim"
-	"github.com/hashicorp/terraform/src/legacy/terraform"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/hcl2shim"
+	"github.com/hugorut/terraform/src/legacy/terraform"
 	ctyconvert "github.com/zclconf/go-cty/cty/convert"
 )
 

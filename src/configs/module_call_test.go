@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 )
 
 func TestLoadModuleCall(t *testing.T) {

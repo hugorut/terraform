@@ -3,7 +3,7 @@ package jsonprovider
 import (
 	"encoding/json"
 
-	"github.com/hashicorp/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

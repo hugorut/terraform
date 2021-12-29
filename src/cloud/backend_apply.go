@@ -7,10 +7,10 @@ import (
 	"log"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func (b *Cloud) opApply(stopCtx, cancelCtx context.Context, op *backend.Operation, w *tfe.Workspace) (*tfe.Run, error) {

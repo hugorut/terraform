@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/terminal"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/terminal"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func TestValidateHuman(t *testing.T) {

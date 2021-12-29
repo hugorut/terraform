@@ -10,13 +10,13 @@ import (
 	plugin "github.com/hashicorp/go-plugin"
 	"github.com/kardianos/osext"
 
-	fileprovisioner "github.com/hashicorp/terraform/src/builtin/provisioners/file"
-	localexec "github.com/hashicorp/terraform/src/builtin/provisioners/local-exec"
-	remoteexec "github.com/hashicorp/terraform/src/builtin/provisioners/remote-exec"
-	"github.com/hashicorp/terraform/src/logging"
-	tfplugin "github.com/hashicorp/terraform/src/plugin"
-	"github.com/hashicorp/terraform/src/plugin/discovery"
-	"github.com/hashicorp/terraform/src/provisioners"
+	fileprovisioner "github.com/hugorut/terraform/src/builtin/provisioners/file"
+	localexec "github.com/hugorut/terraform/src/builtin/provisioners/local-exec"
+	remoteexec "github.com/hugorut/terraform/src/builtin/provisioners/remote-exec"
+	"github.com/hugorut/terraform/src/logging"
+	tfplugin "github.com/hugorut/terraform/src/plugin"
+	"github.com/hugorut/terraform/src/plugin/discovery"
+	"github.com/hugorut/terraform/src/provisioners"
 )
 
 // NOTE WELL: The logic in this file is primarily about plugin types OTHER THAN

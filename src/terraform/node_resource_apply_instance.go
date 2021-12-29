@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/plans/objchange"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/plans/objchange"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // NodeApplyableResourceInstance represents a resource instance that is
@@ -115,7 +115,7 @@ func (n *NodeApplyableResourceInstance) Execute(ctx EvalContext, op walkOperatio
 	if n.Config == nil {
 		// This should not be possible, but we've got here in at least one
 		// case as discussed in the following issue:
-		//    https://github.com/hashicorp/terraform/issues/21258
+		//    https://github.com/hugorut/terraform/issues/21258
 		// To avoid an outright crash here, we'll instead return an explicit
 		// error.
 		diags = diags.Append(tfdiags.Sourceless(

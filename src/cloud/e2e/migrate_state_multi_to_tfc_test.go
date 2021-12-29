@@ -8,8 +8,8 @@ import (
 
 	expect "github.com/Netflix/go-expect"
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/src/e2e"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/e2e"
+	tfversion "github.com/hugorut/terraform/version"
 )
 
 func Test_migrate_multi_to_tfc_cloud_name_strategy(t *testing.T) {

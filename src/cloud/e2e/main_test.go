@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	tfe "github.com/hashicorp/go-tfe"
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/hugorut/terraform/version"
 )
 
 var terraformBin string
@@ -116,7 +116,7 @@ func setupBinary() func() {
 		"go",
 		"build",
 		"-o", tmpTerraformBinaryDir,
-		"-ldflags", fmt.Sprintf("-X \"github.com/hashicorp/terraform/version.Prerelease=%s\"", tfversion.Prerelease),
+		"-ldflags", fmt.Sprintf("-X \"github.com/hugorut/terraform/version.Prerelease=%s\"", tfversion.Prerelease),
 	)
 	err = cmd.Run()
 	if err != nil {

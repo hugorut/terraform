@@ -5,14 +5,14 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/dag"
-	"github.com/hashicorp/terraform/src/lang"
-	"github.com/hashicorp/terraform/src/lang/marks"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/dag"
+	"github.com/hugorut/terraform/src/lang"
+	"github.com/hugorut/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

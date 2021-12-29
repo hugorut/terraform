@@ -8,9 +8,9 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/states"
 )
 
 func TestGraph(t *testing.T) {

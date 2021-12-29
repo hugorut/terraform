@@ -5,7 +5,7 @@ import (
 	"crypto/md5"
 	"fmt"
 
-	"github.com/hashicorp/terraform/src/states/remote"
+	"github.com/hugorut/terraform/src/states/remote"
 	etcdapi "go.etcd.io/etcd/client"
 )
 

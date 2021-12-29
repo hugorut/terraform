@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/states"
 )
 
 func cbdTestGraph(t *testing.T, mod string, changes *plans.Changes, state *states.State) *Graph {

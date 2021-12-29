@@ -7,16 +7,16 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/logging"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/provisioners"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/logging"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	_ "github.com/hashicorp/terraform/src/logging"
+	_ "github.com/hugorut/terraform/src/logging"
 )
 
 // InputMode defines what sort of input will be asked for when Input

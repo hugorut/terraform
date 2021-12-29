@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/command/format"
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/command/format"
+	"github.com/hugorut/terraform/src/states"
 	"github.com/mitchellh/cli"
 )
 

@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/src/e2e"
+	"github.com/hugorut/terraform/src/e2e"
 )
 
 // The tests in this file are for the "terraform providers mirror" command,

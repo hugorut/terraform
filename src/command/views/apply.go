@@ -3,12 +3,12 @@ package views
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/format"
-	"github.com/hashicorp/terraform/src/command/views/json"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/format"
+	"github.com/hugorut/terraform/src/command/views/json"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // The Apply view is used for the apply command.

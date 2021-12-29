@@ -3,8 +3,8 @@ package arguments
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // Apply represents the command-line arguments for the apply command.

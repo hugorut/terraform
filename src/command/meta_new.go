@@ -4,7 +4,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/hashicorp/terraform/src/plans/planfile"
+	"github.com/hugorut/terraform/src/plans/planfile"
 )
 
 // NOTE: Temporary file until this branch is cleaned up.

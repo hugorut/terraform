@@ -5,7 +5,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/configschema"
 )
 
 // AssertPlanValid checks checks whether a planned new state returned by a

@@ -4,7 +4,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/ext/dynblock"
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/hashicorp/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/configschema"
 )
 
 // ExpandedVariables finds all of the global variables referenced in the

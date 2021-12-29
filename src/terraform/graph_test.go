@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/src/dag"
+	"github.com/hugorut/terraform/src/dag"
 )
 
 // testGraphnotContains is an assertion helper that tests that a node is

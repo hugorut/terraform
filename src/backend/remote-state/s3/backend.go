@@ -11,10 +11,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/s3"
 	awsbase "github.com/hashicorp/aws-sdk-go-base"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/legacy/helper/schema"
-	"github.com/hashicorp/terraform/src/logging"
-	"github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/legacy/helper/schema"
+	"github.com/hugorut/terraform/src/logging"
+	"github.com/hugorut/terraform/version"
 )
 
 // New creates a new backend for S3 remote state.

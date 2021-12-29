@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/states/statemgr"
 )
 
 // Attempt to open and lock a terraform state file.

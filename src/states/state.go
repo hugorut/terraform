@@ -6,8 +6,8 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/getproviders"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/getproviders"
 )
 
 // State is the top-level type of a Terraform state.

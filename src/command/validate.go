@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/views"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/views"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // ValidateCommand is a Command implementation that validates the terraform files

@@ -14,17 +14,17 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/configs/configload"
-	"github.com/hashicorp/terraform/src/initwd"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/provisioners"
-	"github.com/hashicorp/terraform/src/registry"
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs/configload"
+	"github.com/hugorut/terraform/src/initwd"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/registry"
+	"github.com/hugorut/terraform/src/states"
 
-	_ "github.com/hashicorp/terraform/src/logging"
+	_ "github.com/hugorut/terraform/src/logging"
 )
 
 // This is the directory where our test fixtures are.

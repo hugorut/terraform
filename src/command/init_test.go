@@ -18,15 +18,15 @@ import (
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/depsfile"
-	"github.com/hashicorp/terraform/src/getproviders"
-	"github.com/hashicorp/terraform/src/providercache"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statefile"
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/depsfile"
+	"github.com/hugorut/terraform/src/getproviders"
+	"github.com/hugorut/terraform/src/providercache"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statefile"
+	"github.com/hugorut/terraform/src/states/statemgr"
 )
 
 func TestInit_empty(t *testing.T) {
@@ -107,7 +107,7 @@ func TestInit_fromModule_cwdDest(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/518
+// https://github.com/hugorut/terraform/issues/518
 func TestInit_fromModule_dstInSrc(t *testing.T) {
 	dir := tempDir(t)
 	if err := os.MkdirAll(dir, 0755); err != nil {

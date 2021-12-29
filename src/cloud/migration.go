@@ -1,8 +1,8 @@
 package cloud
 
 import (
-	"github.com/hashicorp/terraform/src/configs"
-	legacy "github.com/hashicorp/terraform/src/legacy/terraform"
+	"github.com/hugorut/terraform/src/configs"
+	legacy "github.com/hugorut/terraform/src/legacy/terraform"
 )
 
 // Most of the logic for migrating into and out of "cloud mode" actually lives

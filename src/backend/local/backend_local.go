@@ -7,13 +7,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/configs/configload"
-	"github.com/hashicorp/terraform/src/plans/planfile"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs/configload"
+	"github.com/hugorut/terraform/src/plans/planfile"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

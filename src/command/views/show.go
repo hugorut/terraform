@@ -3,9 +3,9 @@ package views
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/terraform"
 )
 
 // FIXME: this is a temporary partial definition of the view for the show

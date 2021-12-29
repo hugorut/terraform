@@ -6,13 +6,13 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/terraform"
 )
 
 // TestLocal returns a configured Local struct with temporary paths and

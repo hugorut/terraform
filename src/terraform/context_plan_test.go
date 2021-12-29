@@ -15,15 +15,15 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/configs/hcl2shim"
-	"github.com/hashicorp/terraform/src/lang/marks"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/provisioners"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/hcl2shim"
+	"github.com/hugorut/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func TestContext2Plan_basic(t *testing.T) {
@@ -859,7 +859,7 @@ module.child:
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/3114
+// https://github.com/hugorut/terraform/issues/3114
 func TestContext2Plan_moduleOrphansWithProvisioner(t *testing.T) {
 	m := testModule(t, "plan-modules-remove-provisioners")
 	p := testProvider("aws")
@@ -4203,7 +4203,7 @@ func TestContext2Plan_targetedOrphan(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/2538
+// https://github.com/hugorut/terraform/issues/2538
 func TestContext2Plan_targetedModuleOrphan(t *testing.T) {
 	m := testModule(t, "plan-targeted-module-orphan")
 	p := testProvider("aws")
@@ -4353,7 +4353,7 @@ func TestContext2Plan_outputContainsTargetedResource(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/4515
+// https://github.com/hugorut/terraform/issues/4515
 func TestContext2Plan_targetedOverTen(t *testing.T) {
 	m := testModule(t, "plan-targeted-over-ten")
 	p := testProvider("aws")

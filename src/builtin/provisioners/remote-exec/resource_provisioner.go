@@ -11,11 +11,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/communicator"
-	"github.com/hashicorp/terraform/src/communicator/remote"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/provisioners"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/communicator"
+	"github.com/hugorut/terraform/src/communicator/remote"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/mitchellh/go-linereader"
 	"github.com/zclconf/go-cty/cty"
 )

@@ -11,9 +11,9 @@ import (
 	"github.com/mitchellh/reflectwalk"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/configs/hcl2shim"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/hcl2shim"
 )
 
 // Resource is a legacy way to identify a particular resource instance.

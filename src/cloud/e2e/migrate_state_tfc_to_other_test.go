@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	expect "github.com/Netflix/go-expect"
-	"github.com/hashicorp/terraform/src/e2e"
+	"github.com/hugorut/terraform/src/e2e"
 )
 
 func Test_migrate_tfc_to_other(t *testing.T) {

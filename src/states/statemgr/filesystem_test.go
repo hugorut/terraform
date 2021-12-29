@@ -13,10 +13,10 @@ import (
 	version "github.com/hashicorp/go-version"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statefile"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statefile"
+	tfversion "github.com/hugorut/terraform/version"
 )
 
 func TestFilesystem(t *testing.T) {

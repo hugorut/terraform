@@ -10,14 +10,14 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/command"
-	"github.com/hashicorp/terraform/src/command/cliconfig"
-	"github.com/hashicorp/terraform/src/command/views"
-	"github.com/hashicorp/terraform/src/command/webbrowser"
-	"github.com/hashicorp/terraform/src/getproviders"
-	pluginDiscovery "github.com/hashicorp/terraform/src/plugin/discovery"
-	"github.com/hashicorp/terraform/src/terminal"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/command"
+	"github.com/hugorut/terraform/src/command/cliconfig"
+	"github.com/hugorut/terraform/src/command/views"
+	"github.com/hugorut/terraform/src/command/webbrowser"
+	"github.com/hugorut/terraform/src/getproviders"
+	pluginDiscovery "github.com/hugorut/terraform/src/plugin/discovery"
+	"github.com/hugorut/terraform/src/terminal"
 )
 
 // runningInAutomationEnvName gives the name of an environment variable that
@@ -401,9 +401,9 @@ func initCommands(
 	}
 
 	HiddenCommands = map[string]struct{}{
-		"env":             struct{}{},
+		"env":        struct{}{},
 		"src-plugin": struct{}{},
-		"push":            struct{}{},
+		"push":       struct{}{},
 	}
 
 }

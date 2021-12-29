@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/terraform/src/command/views/json"
-	"github.com/hashicorp/terraform/src/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/command/views/json"
+	"github.com/hugorut/terraform/src/tfdiags"
+	tfversion "github.com/hugorut/terraform/version"
 )
 
 // This version describes the schema of JSON UI messages. This version must be

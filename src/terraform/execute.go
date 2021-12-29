@@ -1,6 +1,6 @@
 package terraform
 
-import "github.com/hashicorp/terraform/src/tfdiags"
+import "github.com/hugorut/terraform/src/tfdiags"
 
 // GraphNodeExecutable is the interface that graph nodes must implement to
 // enable execution.

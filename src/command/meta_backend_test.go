@@ -9,20 +9,20 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/copy"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statefile"
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/copy"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statefile"
+	"github.com/hugorut/terraform/src/states/statemgr"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/hashicorp/terraform/src/backend/init"
-	backendLocal "github.com/hashicorp/terraform/src/backend/local"
-	backendInmem "github.com/hashicorp/terraform/src/backend/remote-state/inmem"
+	backendInit "github.com/hugorut/terraform/src/backend/init"
+	backendLocal "github.com/hugorut/terraform/src/backend/local"
+	backendInmem "github.com/hugorut/terraform/src/backend/remote-state/inmem"
 )
 
 // Test empty directory with no config/state creates a local state.

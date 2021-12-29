@@ -3,8 +3,8 @@ package providercache
 import (
 	"context"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/getproviders"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/getproviders"
 )
 
 // InstallerEvents is a collection of function references that can be

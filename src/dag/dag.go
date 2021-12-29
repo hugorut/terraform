@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/tfdiags"
 
 	"github.com/hashicorp/go-multierror"
 )

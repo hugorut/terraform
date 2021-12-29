@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/lang/marks"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/terminal"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/terminal"
 	"github.com/zclconf/go-cty/cty"
 )
 

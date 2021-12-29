@@ -6,11 +6,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/repl"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/repl"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 
 	"github.com/mitchellh/cli"
 )

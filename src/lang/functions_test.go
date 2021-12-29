@@ -8,8 +8,8 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/experiments"
-	"github.com/hashicorp/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/experiments"
+	"github.com/hugorut/terraform/src/lang/marks"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/zclconf/go-cty/cty"
 )

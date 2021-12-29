@@ -7,13 +7,13 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/configs/configload"
-	"github.com/hashicorp/terraform/src/initwd"
-	"github.com/hashicorp/terraform/src/instances"
-	"github.com/hashicorp/terraform/src/registry"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs/configload"
+	"github.com/hugorut/terraform/src/initwd"
+	"github.com/hugorut/terraform/src/instances"
+	"github.com/hugorut/terraform/src/registry"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty/gocty"
 )
 

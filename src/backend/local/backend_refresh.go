@@ -6,11 +6,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/logging"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/logging"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func (b *Local) opRefresh(

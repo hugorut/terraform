@@ -8,7 +8,7 @@ import (
 
 	expect "github.com/Netflix/go-expect"
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/hashicorp/terraform/src/e2e"
+	"github.com/hugorut/terraform/src/e2e"
 )
 
 func Test_migrate_remote_backend_name_to_tfc_name(t *testing.T) {

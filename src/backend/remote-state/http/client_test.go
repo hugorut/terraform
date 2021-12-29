@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-retryablehttp"
-	"github.com/hashicorp/terraform/src/states/remote"
+	"github.com/hugorut/terraform/src/states/remote"
 )
 
 func TestHTTPClient_impl(t *testing.T) {

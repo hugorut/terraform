@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/src/builtin/providers/terraform"
-	"github.com/hashicorp/terraform/src/grpcwrap"
-	"github.com/hashicorp/terraform/src/plugin"
-	"github.com/hashicorp/terraform/src/tfplugin5"
+	"github.com/hugorut/terraform/src/builtin/providers/terraform"
+	"github.com/hugorut/terraform/src/grpcwrap"
+	"github.com/hugorut/terraform/src/plugin"
+	"github.com/hugorut/terraform/src/tfplugin5"
 )
 
 func main() {

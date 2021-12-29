@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/src/registry/regsrc"
+	"github.com/hugorut/terraform/src/registry/regsrc"
 )
 
 type errModuleNotFound struct {

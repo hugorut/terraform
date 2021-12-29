@@ -3,8 +3,8 @@ package statemgr
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statefile"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statefile"
 )
 
 // PlannedStateUpdate is a special helper to obtain a statefile representation

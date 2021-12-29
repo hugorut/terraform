@@ -2,7 +2,7 @@ package configs
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 )
 
 type Moved struct {

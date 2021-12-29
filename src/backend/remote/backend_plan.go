@@ -16,10 +16,10 @@ import (
 
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/logging"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/logging"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 var planConfigurationVersionsPollInterval = 500 * time.Millisecond

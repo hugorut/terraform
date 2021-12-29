@@ -9,8 +9,8 @@ import (
 	"github.com/zclconf/go-cty/cty/function"
 	"github.com/zclconf/go-cty/cty/function/stdlib"
 
-	"github.com/hashicorp/terraform/src/experiments"
-	"github.com/hashicorp/terraform/src/lang/funcs"
+	"github.com/hugorut/terraform/src/experiments"
+	"github.com/hugorut/terraform/src/lang/funcs"
 )
 
 var impureFunctions = []string{

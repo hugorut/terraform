@@ -2,7 +2,7 @@ package blocktoattr
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

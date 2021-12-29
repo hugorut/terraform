@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/terraform/src/communicator/remote"
-	"github.com/hashicorp/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/communicator/remote"
+	"github.com/hugorut/terraform/src/provisioners"
 	"github.com/masterzen/winrm"
 	"github.com/packer-community/winrmcp/winrmcp"
 	"github.com/zclconf/go-cty/cty"

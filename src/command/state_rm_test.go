@@ -8,8 +8,8 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/states"
 )
 
 func TestStateRm(t *testing.T) {

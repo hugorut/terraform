@@ -3,8 +3,8 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/src/dag"
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/dag"
+	"github.com/hugorut/terraform/src/states"
 )
 
 // GraphNodeAttachResourceState is an interface that can be implemented

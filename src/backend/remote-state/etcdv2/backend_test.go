@@ -3,7 +3,7 @@ package etcdv2
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/src/backend"
+	"github.com/hugorut/terraform/src/backend"
 )
 
 func TestBackend_impl(t *testing.T) {

@@ -10,15 +10,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/copy"
-	"github.com/hashicorp/terraform/src/earlyconfig"
-	"github.com/hashicorp/terraform/src/getmodules"
+	"github.com/hugorut/terraform/src/copy"
+	"github.com/hugorut/terraform/src/earlyconfig"
+	"github.com/hugorut/terraform/src/getmodules"
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/src/modsdir"
-	"github.com/hashicorp/terraform/src/registry"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/modsdir"
+	"github.com/hugorut/terraform/src/registry"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 const initFromModuleRootCallName = "root"

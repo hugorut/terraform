@@ -28,9 +28,9 @@ import (
 	"github.com/jmespath/go-jmespath"
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/legacy/helper/schema"
-	"github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/legacy/helper/schema"
+	"github.com/hugorut/terraform/version"
 )
 
 // Deprecated in favor of flattening assume_role_* options

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 )
 
 func TestMissingProviderSuggestion(t *testing.T) {

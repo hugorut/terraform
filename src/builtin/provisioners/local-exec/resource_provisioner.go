@@ -9,9 +9,9 @@ import (
 	"runtime"
 
 	"github.com/armon/circbuf"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/provisioners"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/mitchellh/go-linereader"
 	"github.com/zclconf/go-cty/cty"
 )

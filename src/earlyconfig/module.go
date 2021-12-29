@@ -2,7 +2,7 @@ package earlyconfig
 
 import (
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // LoadModule loads some top-level metadata for the module in the given

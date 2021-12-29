@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/dag"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/plans/planfile"
-	"github.com/hashicorp/terraform/src/terraform"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/dag"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/plans/planfile"
+	"github.com/hugorut/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // GraphCommand is a Command implementation that takes a Terraform

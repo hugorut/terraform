@@ -7,14 +7,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs/configload"
-	"github.com/hashicorp/terraform/src/depsfile"
-	"github.com/hashicorp/terraform/src/getproviders"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statefile"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs/configload"
+	"github.com/hugorut/terraform/src/depsfile"
+	"github.com/hugorut/terraform/src/getproviders"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statefile"
+	tfversion "github.com/hugorut/terraform/version"
 )
 
 func TestRoundtrip(t *testing.T) {

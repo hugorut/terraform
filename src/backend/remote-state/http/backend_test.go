@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/backend"
+	"github.com/hugorut/terraform/src/backend"
 )
 
 func TestBackend_impl(t *testing.T) {

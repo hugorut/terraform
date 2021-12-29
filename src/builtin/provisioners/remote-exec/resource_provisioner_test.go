@@ -11,9 +11,9 @@ import (
 
 	"strings"
 
-	"github.com/hashicorp/terraform/src/communicator"
-	"github.com/hashicorp/terraform/src/communicator/remote"
-	"github.com/hashicorp/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/communicator"
+	"github.com/hugorut/terraform/src/communicator/remote"
+	"github.com/hugorut/terraform/src/provisioners"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 )

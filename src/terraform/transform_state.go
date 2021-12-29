@@ -3,7 +3,7 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/states"
 )
 
 // StateTransformer is a GraphTransformer that adds the elements of

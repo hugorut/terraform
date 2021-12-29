@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/dag"
-	"github.com/hashicorp/terraform/src/logging"
-	"github.com/hashicorp/terraform/src/states"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/dag"
+	"github.com/hugorut/terraform/src/logging"
+	"github.com/hugorut/terraform/src/states"
 )
 
 // ApplyMoves modifies in-place the given state object so that any existing

@@ -10,10 +10,10 @@ import (
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/repl"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/repl"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // Provider is an implementation of providers.Interface which we're

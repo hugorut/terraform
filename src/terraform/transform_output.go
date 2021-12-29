@@ -3,10 +3,10 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/dag"
-	"github.com/hashicorp/terraform/src/plans"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/dag"
+	"github.com/hugorut/terraform/src/plans"
 )
 
 // OutputTransformer is a GraphTransformer that adds all the outputs

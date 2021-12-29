@@ -5,7 +5,7 @@ import (
 
 	"github.com/apparentlymart/go-shquot/shquot"
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func TestParseTest(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/dag"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/dag"
 )
 
 // GraphNodeAttachResourceSchema is an interface implemented by node types

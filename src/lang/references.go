@@ -2,10 +2,10 @@ package lang
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/lang/blocktoattr"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/lang/blocktoattr"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // References finds all of the references in the given set of traversals,

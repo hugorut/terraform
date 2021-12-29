@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

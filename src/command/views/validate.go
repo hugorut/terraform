@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/format"
-	viewsjson "github.com/hashicorp/terraform/src/command/views/json"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/format"
+	viewsjson "github.com/hugorut/terraform/src/command/views/json"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // The Validate is used for the validate command.

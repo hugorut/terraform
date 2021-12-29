@@ -3,7 +3,7 @@ package states
 import (
 	"reflect"
 
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 )
 
 // Equal returns true if the receiver is functionally equivalent to other,

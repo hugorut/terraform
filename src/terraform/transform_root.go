@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/src/dag"
+	"github.com/hugorut/terraform/src/dag"
 )
 
 const rootNodeName = "root"

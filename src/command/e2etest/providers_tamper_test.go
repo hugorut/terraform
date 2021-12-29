@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/e2e"
-	"github.com/hashicorp/terraform/src/getproviders"
+	"github.com/hugorut/terraform/src/e2e"
+	"github.com/hugorut/terraform/src/getproviders"
 )
 
 // TestProviderTampering tests various ways that the provider plugins in the

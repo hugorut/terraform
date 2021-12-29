@@ -3,7 +3,7 @@ package terraform
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/configschema"
 )
 
 // MockResourceProvisioner implements ResourceProvisioner but mocks out all the

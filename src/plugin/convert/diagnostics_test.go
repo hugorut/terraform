@@ -8,8 +8,8 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/tfdiags"
-	proto "github.com/hashicorp/terraform/src/tfplugin5"
+	"github.com/hugorut/terraform/src/tfdiags"
+	proto "github.com/hugorut/terraform/src/tfplugin5"
 	"github.com/zclconf/go-cty/cty"
 )
 

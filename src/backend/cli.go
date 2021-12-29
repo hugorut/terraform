@@ -4,8 +4,8 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/hashicorp/terraform/src/terminal"
-	"github.com/hashicorp/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/terminal"
+	"github.com/hugorut/terraform/src/terraform"
 )
 
 // CLI is an optional interface that can be implemented to be initialized

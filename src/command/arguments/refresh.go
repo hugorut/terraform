@@ -1,7 +1,7 @@
 package arguments
 
 import (
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // Refresh represents the command-line arguments for the apply command.

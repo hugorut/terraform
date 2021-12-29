@@ -6,7 +6,7 @@ import (
 	"net/http/httputil"
 
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/terraform/src/logging"
+	"github.com/hugorut/terraform/src/logging"
 )
 
 func buildSender() autorest.Sender {

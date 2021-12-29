@@ -8,7 +8,7 @@ import (
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	getter "github.com/hashicorp/go-getter"
-	"github.com/hashicorp/terraform/src/copy"
+	"github.com/hugorut/terraform/src/copy"
 )
 
 // We configure our own go-getter detector and getter sets here, because

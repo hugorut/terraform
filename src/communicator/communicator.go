@@ -8,11 +8,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hashicorp/terraform/src/communicator/remote"
-	"github.com/hashicorp/terraform/src/communicator/shared"
-	"github.com/hashicorp/terraform/src/communicator/ssh"
-	"github.com/hashicorp/terraform/src/communicator/winrm"
-	"github.com/hashicorp/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/communicator/remote"
+	"github.com/hugorut/terraform/src/communicator/shared"
+	"github.com/hugorut/terraform/src/communicator/ssh"
+	"github.com/hugorut/terraform/src/communicator/winrm"
+	"github.com/hugorut/terraform/src/provisioners"
 	"github.com/zclconf/go-cty/cty"
 )
 

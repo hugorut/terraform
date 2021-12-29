@@ -3,7 +3,7 @@ package init
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/src/backend/remote-state/inmem"
+	"github.com/hugorut/terraform/src/backend/remote-state/inmem"
 	"github.com/zclconf/go-cty/cty"
 )
 

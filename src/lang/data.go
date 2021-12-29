@@ -1,8 +1,8 @@
 package lang
 
 import (
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

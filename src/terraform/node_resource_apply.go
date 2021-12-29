@@ -3,10 +3,10 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/dag"
-	"github.com/hashicorp/terraform/src/lang"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/dag"
+	"github.com/hugorut/terraform/src/lang"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // nodeExpandApplyableResource handles the first layer of resource

@@ -3,7 +3,7 @@ package jsonplan
 import (
 	"encoding/json"
 
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 )
 
 // Resource is the representation of a resource in the json plan

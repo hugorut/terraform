@@ -10,10 +10,10 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	viewsjson "github.com/hashicorp/terraform/src/command/views/json"
-	"github.com/hashicorp/terraform/src/lang/marks"
+	viewsjson "github.com/hugorut/terraform/src/command/views/json"
+	"github.com/hugorut/terraform/src/lang/marks"
 
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func TestDiagnostic(t *testing.T) {
@@ -501,7 +501,7 @@ func TestDiagnosticWarningsCompact(t *testing.T) {
 	}
 }
 
-// Test case via https://github.com/hashicorp/terraform/issues/21359
+// Test case via https://github.com/hugorut/terraform/issues/21359
 func TestDiagnostic_nonOverlappingHighlightContext(t *testing.T) {
 	var diags tfdiags.Diagnostics
 

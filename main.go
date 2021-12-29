@@ -12,19 +12,19 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/command/cliconfig"
-	"github.com/hashicorp/terraform/src/command/format"
-	"github.com/hashicorp/terraform/src/didyoumean"
-	"github.com/hashicorp/terraform/src/httpclient"
-	"github.com/hashicorp/terraform/src/logging"
-	"github.com/hashicorp/terraform/src/terminal"
-	"github.com/hashicorp/terraform/version"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/command/cliconfig"
+	"github.com/hugorut/terraform/src/command/format"
+	"github.com/hugorut/terraform/src/didyoumean"
+	"github.com/hugorut/terraform/src/httpclient"
+	"github.com/hugorut/terraform/src/logging"
+	"github.com/hugorut/terraform/src/terminal"
+	"github.com/hugorut/terraform/version"
 	"github.com/mattn/go-shellwords"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 
-	backendInit "github.com/hashicorp/terraform/src/backend/init"
+	backendInit "github.com/hugorut/terraform/src/backend/init"
 )
 
 const (

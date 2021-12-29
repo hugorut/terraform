@@ -10,8 +10,8 @@ import (
 	"path"
 
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform/src/states/remote"
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/states/remote"
+	"github.com/hugorut/terraform/src/states/statemgr"
 	tritonErrors "github.com/joyent/triton-go/errors"
 	"github.com/joyent/triton-go/storage"
 )

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

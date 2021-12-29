@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/states/remote"
+	"github.com/hugorut/terraform/src/states/remote"
 	artifactory "github.com/lusis/go-artifactory/src/artifactory.v401"
 )
 

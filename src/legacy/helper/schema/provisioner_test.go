@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/src/legacy/terraform"
+	"github.com/hugorut/terraform/src/legacy/terraform"
 )
 
 func TestProvisioner_impl(t *testing.T) {

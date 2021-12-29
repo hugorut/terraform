@@ -6,7 +6,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/hashicorp/terraform/src/legacy/terraform"
+	"github.com/hugorut/terraform/src/legacy/terraform"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -5,10 +5,10 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/dag"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/dag"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func transformProviders(concrete ConcreteProviderNodeFunc, config *configs.Config) GraphTransformer {

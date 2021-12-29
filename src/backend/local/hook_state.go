@@ -3,9 +3,9 @@ package local
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/terraform"
 )
 
 // StateHook is a hook that continuously updates the state by calling

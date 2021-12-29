@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/clistate"
-	"github.com/hashicorp/terraform/src/command/views"
-	"github.com/hashicorp/terraform/src/states/statefile"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/clistate"
+	"github.com/hugorut/terraform/src/command/views"
+	"github.com/hugorut/terraform/src/states/statefile"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
 )

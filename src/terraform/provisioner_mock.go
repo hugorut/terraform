@@ -3,7 +3,7 @@ package terraform
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/provisioners"
 )
 
 var _ provisioners.Interface = (*MockProvisioner)(nil)

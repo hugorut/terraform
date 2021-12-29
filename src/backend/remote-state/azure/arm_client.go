@@ -18,7 +18,7 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/hashicorp/go-azure-helpers/authentication"
 	"github.com/hashicorp/go-azure-helpers/sender"
-	"github.com/hashicorp/terraform/src/httpclient"
+	"github.com/hugorut/terraform/src/httpclient"
 )
 
 type ArmClient struct {

@@ -7,15 +7,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/backend/local"
-	"github.com/hashicorp/terraform/src/backend/remote-state/inmem"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/backend/local"
+	"github.com/hugorut/terraform/src/backend/remote-state/inmem"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statemgr"
 	"github.com/mitchellh/cli"
 
-	legacy "github.com/hashicorp/terraform/src/legacy/terraform"
+	legacy "github.com/hugorut/terraform/src/legacy/terraform"
 )
 
 func TestWorkspace_createAndChange(t *testing.T) {

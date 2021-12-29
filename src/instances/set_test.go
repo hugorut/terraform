@@ -3,7 +3,7 @@ package instances
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

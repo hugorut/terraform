@@ -12,15 +12,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/backend/remote"
-	"github.com/hashicorp/terraform/src/cloud"
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/clistate"
-	"github.com/hashicorp/terraform/src/command/views"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/terraform"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/backend/remote"
+	"github.com/hugorut/terraform/src/cloud"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/clistate"
+	"github.com/hugorut/terraform/src/command/views"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/terraform"
 )
 
 type backendMigrateOpts struct {

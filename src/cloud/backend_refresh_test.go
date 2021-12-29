@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/clistate"
-	"github.com/hashicorp/terraform/src/command/views"
-	"github.com/hashicorp/terraform/src/initwd"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/terminal"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/clistate"
+	"github.com/hugorut/terraform/src/command/views"
+	"github.com/hugorut/terraform/src/initwd"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/terminal"
 	"github.com/mitchellh/cli"
 )
 

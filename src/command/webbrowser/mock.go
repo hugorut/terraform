@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/hashicorp/terraform/src/httpclient"
+	"github.com/hugorut/terraform/src/httpclient"
 )
 
 // NewMockLauncher creates and returns a mock implementation of Launcher,

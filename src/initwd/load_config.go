@@ -5,9 +5,9 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/src/earlyconfig"
-	"github.com/hashicorp/terraform/src/modsdir"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/earlyconfig"
+	"github.com/hugorut/terraform/src/modsdir"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // LoadConfig loads a full configuration tree that has previously had all of

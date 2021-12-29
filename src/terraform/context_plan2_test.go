@@ -9,13 +9,13 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/lang/marks"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -2094,7 +2094,7 @@ func TestContext2Plan_moduleExpandOrphansResourceInstance(t *testing.T) {
 	// registrations in the instance expander that might lead to panics
 	// if we aren't careful.
 	//
-	// (For some history here, see https://github.com/hashicorp/terraform/issues/30110 )
+	// (For some history here, see https://github.com/hugorut/terraform/issues/30110 )
 
 	addrNoKey := mustResourceInstanceAddr("module.child.test_object.a[0]")
 	addrZeroKey := mustResourceInstanceAddr("module.child[0].test_object.a[0]")

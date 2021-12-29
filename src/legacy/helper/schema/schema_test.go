@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/configs/hcl2shim"
-	"github.com/hashicorp/terraform/src/legacy/helper/hashcode"
-	"github.com/hashicorp/terraform/src/legacy/terraform"
+	"github.com/hugorut/terraform/src/configs/hcl2shim"
+	"github.com/hugorut/terraform/src/legacy/helper/hashcode"
+	"github.com/hugorut/terraform/src/legacy/terraform"
 )
 
 func TestEnvDefaultFunc(t *testing.T) {
@@ -1948,7 +1948,7 @@ func TestSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
-			Name: "https://github.com/hashicorp/terraform/issues/824",
+			Name: "https://github.com/hugorut/terraform/issues/824",
 			Schema: map[string]*Schema{
 				"block_device": &Schema{
 					Type:     TypeSet,

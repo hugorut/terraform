@@ -1,7 +1,7 @@
 package cloud
 
 import (
-	"github.com/hashicorp/terraform/src/backend"
+	"github.com/hugorut/terraform/src/backend"
 )
 
 // CLIInit implements backend.CLI

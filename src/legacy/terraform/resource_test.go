@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/configs/hcl2shim"
+	"github.com/hugorut/terraform/src/configs/hcl2shim"
 	"github.com/mitchellh/reflectwalk"
 )
 

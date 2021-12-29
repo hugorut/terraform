@@ -1,6 +1,6 @@
 package terraform
 
-import "github.com/hashicorp/terraform/src/tfdiags"
+import "github.com/hugorut/terraform/src/tfdiags"
 
 // NodeEvalableProvider represents a provider during an "eval" walk.
 // This special provider node type just initializes a provider and

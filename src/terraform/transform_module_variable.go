@@ -4,12 +4,12 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs"
 )
 
 // ModuleVariableTransformer is a GraphTransformer that adds all the variables

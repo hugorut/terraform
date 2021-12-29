@@ -11,10 +11,10 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/copy"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/copy"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 func TestImport(t *testing.T) {

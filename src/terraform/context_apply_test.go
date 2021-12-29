@@ -18,16 +18,16 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/go-test/deep"
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/configs"
-	"github.com/hashicorp/terraform/src/configs/configschema"
-	"github.com/hashicorp/terraform/src/configs/hcl2shim"
-	"github.com/hashicorp/terraform/src/lang/marks"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/providers"
-	"github.com/hashicorp/terraform/src/provisioners"
-	"github.com/hashicorp/terraform/src/states"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/configs"
+	"github.com/hugorut/terraform/src/configs/configschema"
+	"github.com/hugorut/terraform/src/configs/hcl2shim"
+	"github.com/hugorut/terraform/src/lang/marks"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/providers"
+	"github.com/hugorut/terraform/src/provisioners"
+	"github.com/hugorut/terraform/src/states"
+	"github.com/hugorut/terraform/src/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 )
@@ -1514,7 +1514,7 @@ func TestContext2Apply_destroyData(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/pull/5096
+// https://github.com/hugorut/terraform/pull/5096
 func TestContext2Apply_destroySkipsCBD(t *testing.T) {
 	// Config contains CBD resource depending on non-CBD resource, which triggers
 	// a cycle if they are both replaced, but should _not_ trigger a cycle when
@@ -2306,7 +2306,7 @@ func TestContext2Apply_countVariableRef(t *testing.T) {
 func TestContext2Apply_provisionerInterpCount(t *testing.T) {
 	// This test ensures that a provisioner can interpolate a resource count
 	// even though the provisioner expression is evaluated during the plan
-	// walk. https://github.com/hashicorp/terraform/issues/16840
+	// walk. https://github.com/hugorut/terraform/issues/16840
 
 	m, snap := testModuleWithSnapshot(t, "apply-provisioner-interp-count")
 
@@ -3840,7 +3840,7 @@ func TestContext2Apply_multiVarCountDec(t *testing.T) {
 // Test that we can resolve a multi-var (splat) for the first resource
 // created in a non-root module, which happens when the module state doesn't
 // exist yet.
-// https://github.com/hashicorp/terraform/issues/14438
+// https://github.com/hugorut/terraform/issues/14438
 func TestContext2Apply_multiVarMissingState(t *testing.T) {
 	m := testModule(t, "apply-multi-var-missing-state")
 	p := testProvider("test")
@@ -5542,7 +5542,7 @@ func TestContext2Apply_destroyOrder(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/2767
+// https://github.com/hugorut/terraform/issues/2767
 func TestContext2Apply_destroyModulePrefix(t *testing.T) {
 	m := testModule(t, "apply-destroy-module-resource-prefix")
 	h := new(MockHook)
@@ -5669,7 +5669,7 @@ func TestContext2Apply_destroyDeeplyNestedModule(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/5440
+// https://github.com/hugorut/terraform/issues/5440
 func TestContext2Apply_destroyModuleWithAttrsReferencingResource(t *testing.T) {
 	m, snap := testModuleWithSnapshot(t, "apply-destroy-module-with-attrs")
 	p := testProvider("aws")
@@ -6685,7 +6685,7 @@ func TestContext2Apply_taintX(t *testing.T) {
 	m := testModule(t, "apply-taint")
 	p := testProvider("aws")
 	// destroyCount tests against regression of
-	// https://github.com/hashicorp/terraform/issues/1056
+	// https://github.com/hugorut/terraform/issues/1056
 	var destroyCount = int32(0)
 	var once sync.Once
 	simulateProviderDelay := func() {
@@ -7087,7 +7087,7 @@ func TestContext2Apply_targetedDestroyCountDeps(t *testing.T) {
 	checkStateString(t, state, `<no state>`)
 }
 
-// https://github.com/hashicorp/terraform/issues/4462
+// https://github.com/hugorut/terraform/issues/4462
 func TestContext2Apply_targetedDestroyModule(t *testing.T) {
 	m := testModule(t, "apply-targeted-module")
 	p := testProvider("aws")
@@ -8259,7 +8259,7 @@ aws_instance.foo:
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/7378
+// https://github.com/hugorut/terraform/issues/7378
 func TestContext2Apply_destroyNestedModuleWithAttrsReferencingResource(t *testing.T) {
 	m, snap := testModuleWithSnapshot(t, "apply-destroy-nested-module-with-attrs")
 	p := testProvider("null")

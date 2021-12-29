@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 
 	"github.com/hashicorp/go-checkpoint"
-	"github.com/hashicorp/terraform/src/command"
-	"github.com/hashicorp/terraform/src/command/cliconfig"
+	"github.com/hugorut/terraform/src/command"
+	"github.com/hugorut/terraform/src/command/cliconfig"
 )
 
 func init() {

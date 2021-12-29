@@ -11,14 +11,14 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/src/e2e"
-	"github.com/hashicorp/terraform/src/grpcwrap"
-	tfplugin5 "github.com/hashicorp/terraform/src/plugin"
-	tfplugin "github.com/hashicorp/terraform/src/plugin6"
-	simple5 "github.com/hashicorp/terraform/src/provider-simple"
-	simple "github.com/hashicorp/terraform/src/provider-simple-v6"
-	proto5 "github.com/hashicorp/terraform/src/tfplugin5"
-	proto "github.com/hashicorp/terraform/src/tfplugin6"
+	"github.com/hugorut/terraform/src/e2e"
+	"github.com/hugorut/terraform/src/grpcwrap"
+	tfplugin5 "github.com/hugorut/terraform/src/plugin"
+	tfplugin "github.com/hugorut/terraform/src/plugin6"
+	simple5 "github.com/hugorut/terraform/src/provider-simple"
+	simple "github.com/hugorut/terraform/src/provider-simple-v6"
+	proto5 "github.com/hugorut/terraform/src/tfplugin5"
+	proto "github.com/hugorut/terraform/src/tfplugin6"
 )
 
 // The tests in this file are for the "unmanaged provider workflow", which

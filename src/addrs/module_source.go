@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/hashicorp/terraform/src/getmodules"
+	"github.com/hugorut/terraform/src/getmodules"
 )
 
 // ModuleSource is the general type for all three of the possible module source

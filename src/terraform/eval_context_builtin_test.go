@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/providers"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/providers"
 	"github.com/zclconf/go-cty/cty"
 )
 

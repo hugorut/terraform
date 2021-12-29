@@ -12,14 +12,14 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/earlyconfig"
-	"github.com/hashicorp/terraform/src/getmodules"
-	"github.com/hashicorp/terraform/src/modsdir"
-	"github.com/hashicorp/terraform/src/registry"
-	"github.com/hashicorp/terraform/src/registry/regsrc"
-	"github.com/hashicorp/terraform/src/registry/response"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/earlyconfig"
+	"github.com/hugorut/terraform/src/getmodules"
+	"github.com/hugorut/terraform/src/modsdir"
+	"github.com/hugorut/terraform/src/registry"
+	"github.com/hugorut/terraform/src/registry/regsrc"
+	"github.com/hugorut/terraform/src/registry/response"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 type ModuleInstaller struct {

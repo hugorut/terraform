@@ -38,7 +38,7 @@ cp -r testdata "$OUTDIR/testdata"
 go build -o "$OUTDIR/terraform$GOEXE" github.com/hashicorp/terraform
 
 # Build the test program
-go test -o "$OUTDIR/e2etest$GOEXE" -c -ldflags "-X github.com/hashicorp/terraform/internal/command/e2etest.terraformBin=./terraform$GOEXE" github.com/hashicorp/terraform/src/command/e2etest
+go test -o "$OUTDIR/e2etest$GOEXE" -c -ldflags "-X github.com/hugorut/terraform/internal/command/e2etest.terraformBin=./terraform$GOEXE" github.com/hugorut/terraform/src/command/e2etest
 
 # Now bundle it all together for easy shipping!
 cd "$OUTDIR"

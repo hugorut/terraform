@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	expect "github.com/Netflix/go-expect"
-	"github.com/hashicorp/terraform/src/e2e"
+	"github.com/hugorut/terraform/src/e2e"
 )
 
 func Test_init_with_empty_tags(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/src/lang"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/lang"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // Session represents the state for a single REPL session.

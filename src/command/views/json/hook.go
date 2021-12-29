@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/terraform/src/addrs"
-	"github.com/hashicorp/terraform/src/plans"
+	"github.com/hugorut/terraform/src/addrs"
+	"github.com/hugorut/terraform/src/plans"
 )
 
 type Hook interface {

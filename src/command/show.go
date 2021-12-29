@@ -5,17 +5,17 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/src/backend"
-	"github.com/hashicorp/terraform/src/command/arguments"
-	"github.com/hashicorp/terraform/src/command/format"
-	"github.com/hashicorp/terraform/src/command/jsonplan"
-	"github.com/hashicorp/terraform/src/command/jsonstate"
-	"github.com/hashicorp/terraform/src/command/views"
-	"github.com/hashicorp/terraform/src/plans"
-	"github.com/hashicorp/terraform/src/plans/planfile"
-	"github.com/hashicorp/terraform/src/states/statefile"
-	"github.com/hashicorp/terraform/src/states/statemgr"
-	"github.com/hashicorp/terraform/src/tfdiags"
+	"github.com/hugorut/terraform/src/backend"
+	"github.com/hugorut/terraform/src/command/arguments"
+	"github.com/hugorut/terraform/src/command/format"
+	"github.com/hugorut/terraform/src/command/jsonplan"
+	"github.com/hugorut/terraform/src/command/jsonstate"
+	"github.com/hugorut/terraform/src/command/views"
+	"github.com/hugorut/terraform/src/plans"
+	"github.com/hugorut/terraform/src/plans/planfile"
+	"github.com/hugorut/terraform/src/states/statefile"
+	"github.com/hugorut/terraform/src/states/statemgr"
+	"github.com/hugorut/terraform/src/tfdiags"
 )
 
 // ShowCommand is a Command implementation that reads and outputs the
